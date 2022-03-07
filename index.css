@@ -1,1 +1,38 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+}
+
+.site-title {
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+.nav-bar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-bar-links li{
+  list-style: none;
+}
+
+.nav-bar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
